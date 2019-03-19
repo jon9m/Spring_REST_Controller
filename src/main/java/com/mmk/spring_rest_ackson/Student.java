@@ -2,6 +2,9 @@ package com.mmk.spring_rest_ackson;
 
 import java.util.Arrays;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
 	private int id;
 	private String firstName;
