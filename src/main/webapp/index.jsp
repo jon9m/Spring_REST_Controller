@@ -6,7 +6,8 @@
 </head>
 <body>
 <p>Spring REST Controller</p>
-<a href="test/">root</a>
-<a href="test/hello/">hello</a>
+<a href="api">root</a>
+<a href="api/hello/">hello</a>
+<a href="api/students/">students</a>
 </body>
 </html>
